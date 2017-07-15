@@ -27,7 +27,7 @@ class CommentForm extends Component {
           type='text'
           placeholder='Your name...'
           style={ style.commentFormAuthor }
-          value={ This.state.author }
+          value={ this.state.author }
           onChange={ this.handleAuthorChange } />
         <input
           type='text'
